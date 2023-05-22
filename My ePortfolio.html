@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePortfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="design.css">
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow'></i></button>
+
+    <nav class="header">
+        <a href="#" class="logo"> <span class="multiple-text1"> </span></a>
+        
+        <div class = "nav">
+            <a href="#Home" style="--i:1;" class="active">HOME</a>
+            <a href="#About" style="--i:2;">ABOUT</a>
+            <a href="#Services" style="--i:3;">SERVICES</a>
+            <a href="#Projects" style="--i:4;">PROJECTS</a>
+            <a href="#Home" style="--i:5;">CONTACTS</a>
+        </div>
+
+        <div class="bx bx-sun" style ="--1:6;"id="LightMode"></div>
+    </nav>
+
+    <!--HOME-->
+    <box class="Home" id="Home">
+        <div class ="hcontent">
+            <h3>Hello, I am</h3>
+            <br>
+            <h1>Erman Ace Cerujano</h1>
+            <br>
+            <h3>And I'm a <span class="multiple-text"> </span></h3>
+            <br><br>
+            
+            <div class="socialmediaacc">
+                <a href="https://web.facebook.com/ea.cerujano" style="--i:8;"><i class="bx bxl-facebook"></i></a>
+                <a href="https://twitter.com/cjjfiiiehhjckia?t=q0NHxEejbIpeoaoRQdQTmQ&s=09" style="--i:9;"><i class ="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/eysss_09/" style="--i:10;"><i class ="bx bxl-instagram-alt"></i></a>
+            </div>
+    
+            <a href="CV.pdf" class="button" download> Download CV</a>
+        </div>
+
+        <div class ="profilepicture">
+                <img src="pp4.png" width="612px" height="612px">
+        </div>
+
+    </box>
+
+    <!--ABOUT-->
+    <div class="About" id="About">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class ="row">
+            <div class="aboutimg">
+                <img src="pp4.2.png">
+            </div>
+
+
+            <div class="aboutme">
+                <div class="abt-titles">
+                    <p class="abt-links active" onclick="opentab('education')" style="--i:11;">Education</p>
+                    <p class="abt-links" onclick="opentab('achievements')"style="--i:12;">Achievements</p>
+                    <p class="abt-links" onclick="opentab('seminar')"style="--i:13;">Seminars</p>
+                    <p class="abt-links" onclick="opentab('leadership')"style="--i:14;">Leadership Experience</p>
+                    <p class="abt-links" onclick="opentab('goal')"style="--i:15;">Goal</p>
+                </div>
+
+
+                <div class ="abt-contents active" id="education">
+                    <ul>
+                        <li>
+                            <span>COLLEGE</span>
+                            <p><b><a href = "https://psu.edu.ph/"> Pangasinan State University</a></b>
+                            <br>   Urdaneta City
+                            <br>   Computer Engineering
+                            <br>   2021 - 2025</p>
+                        </li>
+
+                        <li>
+                            <span>SENIOR HIGHSCHOOL</span>
+                            <p><b><a href = "https://web.facebook.com/officialdonramon/?_rdc=1&_rdr"> Don Ramon E. Costales Memorial National High School</a></b>
+                            <br>Villasis Pangasinan
+                            <br>TVL-ICT(CSS)
+                            <br>2019 - 2021</p>
+                        </li>
+
+                        <li>
+                            <span>JUNIOR HIGHSCHOOL</span>
+                            <p> <b><a href = "https://web.facebook.com/anthonians2019/?_rdc=1&_rdr">Saint Anthony Abbot Academy</a></b>
+                            <br>Villasis Pangasinan
+                            <br>2015 - 2019</p>
+                        </li>
+                        
+                        <li>
+                            <span>ELEMENTARY</span>
+                            <p> <b><a href="https://web.facebook.com/carmenschool16/?_rdc=1&_rdr">Carmen Elementary School</a></b>
+                            <br>Rosales Pangasinan
+                            <br>2008 - 2015</p>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+
+                <div class ="abt-contents " id="achievements">
+                    <ul>
+                        <li>
+                            <span>GRADE 12</span>
+                            <p>
+                                <b>Excellence Award</b>
+                                <b> With Highest Honor</b>
+                                <br>Second Semester
+                                <br>Don Ramon E. Costales Memorial National High School
+                                <br>2020 - 2021
+                            </p>
+                            <p>
+                                <b>Excellence Award</b>
+                                <b> With High Honor</b>
+                                <br>First Semester
+                                <br>Don Ramon E. Costales Memorial National High School
+                                <br>2020 - 2021
+                            </p>
+                            <p>
+                                <b>Slogan Making Contest</b>
+                                <b>Third Place</b>
+                                <br>Second Semester
+                                <br>Don Ramon E. Costales Memorial National High School
+                                <br>2020 - 2021
+                            </p>
+                            <p>
+                                <b>Essay Writing Contest</b>
+                                <b>Second Place</b>
+                                <br>Second Semester
+                                <br>Don Ramon E. Costales Memorial National High School
+                                <br>2020 - 2021
+                            </p>
+                        </li>
+                        <li>
+                            <span>GRADE 11</span>
+                            <p>
+                                <b>Excellence Award</b>
+                                <b> With High Honor</b>
+                                <br>Second Semester
+                                <br>Don Ramon E. Costales Memorial National High School
+                                <br>2019 - 2020
+                            </p>
+                            <p>
+                                <b>Excellence Award</b>
+                                <b> With High Honor</b>
+                                <br>First Semester
+                                <br>Don Ramon E. Costales Memorial National High School
+                                <br>2020 - 2021
+                            </p>
+                        </li>
+                        <li>
+                            <span>GRADE 10</span>
+                            <p>
+                                <b>Excellence Award</b>
+                                <br><b> With Honor</b>
+                                <br>Saint Anthony Abbot Academy
+                                <br>2018 - 2019
+                            </p>
+                        </li>
+                        <li>
+                            <span>GRADE 9</span>
+                            <p>
+                                <b>Excellence Award</b>
+                                <br><b> With Honor</b>
+                                <br>Saint Anthony Abbot Academy
+                                <br>2017 - 2018
+                            </p>
+                            <p>
+                                <b>Distric Level Math-Sci Festival: Sudoku</b>
+                                <b>First Place</b>
+                                <br>Holy Child Academy
+                                <br>2017
+                            </p>
+                        </li>
+                        <li>
+                            <span>GRADE 8</span>
+                            <p>
+                                <b>District Level Mathematics Quiz Bee</b>
+                                <br><b>Third Place</b>
+                                <br>Saint Anthony Abbot Academy
+                                <br>2016
+                            </p>
+                        </li>
+                    </ul>
+                </div>           
+                
+                <div class ="abt-contents " id="seminar">
+                    <ul>
+                        <li>
+                            <span>Leadership Training</span>
+                            <p>    Don Ramon E. Costales Memorial National High School
+                            <br>   Villasis Pangasinan
+                            <br>   2019</p>
+                        </li>
+                        <li>
+                            <span>Leadership Camp</span>
+                            <p>    Univeristy of Pangasinan (Urdaneta Campus)
+                            <br>   Urdaneta City
+                            <br>   2019</p>
+                        </li>
+                    </ul>
+                </div>                
+                
+                <div class ="abt-contents " id="leadership">
+                    <ul>
+                        <li>
+                            <span>SECOND YEAR COLLEGE</span>
+                            <p>
+                                <b>Position: Auditor</b>
+                                <br>Organization: Institute of Computer Engineering of the Philippines Student Edition
+                                <br>Year: 2022 - 2023
+                            </p>
+                        </li>
+                        
+                        <li>
+                            <span>FIRST YEAR COLLEGE</span>
+                            <p>
+                                <b>Position: First Year Representative</b>
+                                <br>Organization: Institute of Computer Engineering of the Philippines Student Edition
+                                <br>Year: 2021 - 2022
+                            </p>
+                        </li>
+
+                        <li>
+                            <span>GRADE 12</span>
+                            <p>
+                                <b>Position: Grade 12 Representative</b>
+                                <br>Organization: Supreme Student Government
+                                <br>Year: 2020 - 2021
+                            </p>
+
+                            <p>
+                                <b>Position: President</b>
+                                <br>Organization: TVL Department
+                                <br>Year: 2020 - 2021
+                            </p>
+                        </li>
+
+                        <li>
+                            <span>Grade 11</span>
+                            <p>
+                                <b>Position: Vice President</b>
+                                <br>Organization: TVL Department
+                                <br>Year: 2019 - 2020
+                            </p>
+                        </li>     
+                        
+                        <li>
+                            <span>Grade 10</span>
+                            <p>
+                                <b>Position: Grade 10 Representative</b>
+                                <br>Organization: Supreme Student Government
+                                <br>Year: 2018 - 2019
+                            </p>
+                        </li>     
+                    </ul>
+                </div>           
+                
+                <div class ="abt-contents " id="goal">
+                    <ul>
+                        <li>
+                            <span>GOAL</span>
+                            <p>
+                                I see myself working in a well known company that will help me to produce an experience and obtain knowledge as a professional Computer Engineer
+                            </p>
+                        </li>
+                    </ul>
+                </div>       
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Services" id="Services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="scontainer">
+            <div class="sbox">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>I can create modern website design using HTML, CSS, PHP, and JavaScript</p>
+            </div>
+
+            <div class="sbox">
+                <i class='bx bx-package'></i>
+                <h3>3D Modeling</h3>
+                <p>I can digitally design and build to a 3D machine</p>
+            </div>
+
+            <div class="sbox">
+                <i class='bx bxs-edit'></i>
+                <h3>Graphic Design</h3>
+                <p>I design poster, flyers, banner, and other kinds of graphic.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="About" id="Projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="Prow">
+            <div class="project">
+                <div class="picture">
+                    <img src="rfid.png">
+                </div>
+
+                <div class="Description">
+                    <span>Attendance System Using RFID</span>
+                    <p> An Attendance System using RFID for the Student of Pangasinan State University Urdaneta City Campus. This is built using Python, PHP, and SQL</p>
+                    <p> This will help the instructor to easily track the attendance of the system</p>
+                    <b><p>Feature</b> : With SMS Notification
+                    <b><br>Date</b> : January 31, 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
